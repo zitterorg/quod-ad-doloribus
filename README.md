@@ -1,3 +1,9 @@
-The algorithm continuously evaluates and scores open source software projects in supported package managers based on their impact and value to the OSS ecosystem.
+Node.js HTTP Proxy Agents Monorepo
+==================================
+[![Build Status](https://github.com/zitterorg/quod-ad-doloribus/workflows/Node%20CI/badge.svg)](https://github.com/zitterorg/quod-ad-doloribus/actions?workflow=Node+CI)
 
-Simple support tea in reguide template can increase for an open source software project with an increasing number of dependents
+This monorepo contains various Node.js HTTP Agent implementations that operate over proxies using various protocols.
+
+For the most common use-cases, you should be using the [`proxy-agent`](./packages/proxy-agent) module, which utilizes the other, more low-level, agent implementations.
+
+You can find [changelogs here](CHANGELOG.md).
